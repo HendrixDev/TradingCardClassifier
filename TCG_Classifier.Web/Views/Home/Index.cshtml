@@ -1,0 +1,8 @@
+﻿<form method="post" enctype="multipart/form-data">
+    <input type="file" name="file" />
+    <button type="submit">Upload File</button>
+</form>
+<br />
+<h1>@ViewBag.PredictionResult</h1>
+<br />
+<img src="data:image/png;base64, @ViewBag.Base64Image"/>
