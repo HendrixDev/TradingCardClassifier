@@ -9,7 +9,7 @@ I integrated the model into a web application so a user can upload an image from
 The image is then copied to the Memory Stream and converted to a byte array.
 The byte array is passed to the prediction engine, and the prediction result (PredictedLabel) is then shown on screen as well as the image that was uploaded.
 
-Here are some example photos of the prediction results:
+Here are some example photos with the predictions at the top:
 
 
 ![pokemon energy](https://github.com/HendrixDev/TradingCardClassifier/assets/46378088/a412ddc0-7388-4c51-8295-b8a57931acc5)
